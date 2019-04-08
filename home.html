@@ -1,0 +1,434 @@
+ <!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href=".\css\foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+	
+	<script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.magellan.js"></script>
+  <script src="js/foundation/foundation.accordion.js"></script>
+  <script src="js/foundation/foundation.equalizer.js"></script>
+  
+   <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+  
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'  type='text/css'>
+  
+  <script>
+  $(document).foundation({
+"magellan-expedition": {
+  threshold: 0, // how many pixels until the magellan bar sticks, 0 = auto
+  destination_threshold: 12, // pixels from the top of destination for it to be considered active
+  throttle_delay: 50, // calculation throttling to increase framerate
+  fixed_top: 0, // top distance in pixels assigend to the fixed element on scroll
+  offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
+}
+});
+  </script>
+	
+	<style type="text/css">
+	body{font-family:'Raleway',sans-serif;font-size:18px;}hr{text-align:center;margin:0 auto;opacity:0.5;}ul{text-transform:uppercase;}ul.inline-list.right{text-transform:none;}ul.inline-list.right a{color:#000;}ul.inline-list.right a:hover{color:rgba(0,0,0,0.5);}h1{font-family:'American Typewriter','Courier New',Courier,Monaco,mono;font-size:32px;color:#fff;line-height:28px;margin-top:16px;margin-bottom:0px;text-align:center;}h2{font-family:'American Typewriter','Courier New',Courier,Monaco,mono;color:#fff;font-size:36px;line-height:34px;}h3{font-family:'American Typewriter','Courier New',Courier,Monaco,mono;font-size:24px;color:#fff;line-height:10px;text-align:center;font-weight:500;padding-bottom:10px;}h4{font-family:'American Typewriter','Courier New',Courier,Monaco,mono;color:#000;font-size:28px;padding-top:5px;}.columns.large-centered{padding-left:5px;padding-right:5px;}@media only screen and (max-width: 40em) {.columns.large-centered{font-size:13px;}}@media only screen and (min-width: 40.063em) {.columns.large-centered{font-size:14px;}}.about-box{color:#fff;}.black-box{background-color:rgba(0,0,0,0.55);padding:35px;font-weight:900;}.black-box p{font-weight:900;}.secondary.small.button{background-color:transparent;color:#fff;border:2px #fff solid;border-radius:5px;padding:15px 50px 15px 50px;margin:0;}.secondary.small.button:hover{background-color:rgba(255,255,255,0.5);}.row .main-wrapper{color:#fff;}.about-content{background-color:#fff;box-shadow:2px 2px 10px rgba(0,0,0,0.1);}.button-group li .button{border:0!important;}.button{-webkit-appearance:none;background-color:transparent;border-width:0;text-align:center;box-shadow:0 0 0;}.button:hover{color:rgba(255,255,255,0.7);background-color:transparent;}footer p,footer a{font-size:14px;}.hero{padding-bottom:50px;background-image:url("img/dogss.jpg");background-size:cover;box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.2);}.hero-content{padding-top:40px;padding-bottom:40px;background-color:#EAEAEA;}.panel{margin:40px 0 40px 0;box-shadow:2px 2px 10px rgba(0,0,0,0.2);border:none;background-color:#EAEAEA;}.large-4 img{box-shadow:2px 2px 10px rgba(0,0,0,0.1);}.radius.right.button{color:#000;border:2px #000 solid;border-radius:5px;padding:15px 50px 15px 50px;margin:0;font-size:0.8125em;}@media only screen and (min-width: 64.063em) {.radius.right.button{color:#000;border:2px #000 solid;border-radius:5px;padding:15px 50px 15px 50px;margin-top:25px;font-size:0.8125em;}}@media only screen and (min-width: 40.063em) {.radius.right.button{color:#000;border:2px #000 solid;border-radius:5px;padding:15px 50px 15px 50px;margin-top:25px;font-size:0.8125em;}}.radius.right.button:hover{background-color:rgba(0,0,0,0.1);}</style>
+	
+	<style>
+
+
+.active-tb {
+  position: relative;
+  box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.5);
+  transform: scale(1);
+  border: 0;
+  transition: 0.4s ease;
+  z-index: 13; }
+  .active-tb:hover {
+    position: relative;
+    box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.5);
+    transform: scale(1.25);
+    border: 0;
+    z-index: 15; }
+
+	</style>
+	
+	
+	<style>
+	.box {
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 10px 25px;
+  display: block;
+  margin-top: 60px; }
+
+.box-icon {
+  background-color: #569;
+  border-radius: 50%;
+  display: table;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+  margin-top: -61px;
+  font-size: 3rem; }
+  .box-icon span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
+
+.info h4 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+.info p {
+  color: #717171;
+  font-size: 16px;
+  padding-top: 10px; }
+.info a {
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: all 0.5s ease 0s; }
+  .info a:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    transition: all 0.5s ease 0s; }
+
+	</style>
+	
+	
+	
+	
+  </head>
+  <body>
+          <section class="hero">
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="main-wrapper">
+              <h1>Dogs and Cats</h1>
+              <h3>Adoption Center</h3>
+              <hr>
+              <div class="row">
+                <div class="large-12 columns large-centered">
+                 
+				 
+				  <div data-magellan-expedition="fixed" >
+  <dl class="sub-nav">
+    <dd data-magellan-arrival="home" style="font-family:lobster;font-size: x-large;"><a href="#home">Home</a></dd>
+	 <dd data-magellan-arrival="adopt1" style="font-family:lobster;font-size: x-large;"><a href="#adopt1">Adopt Dogs</a></dd>
+	 
+	 <dd data-magellan-arrival="adopt2" style="font-family:lobster;font-size: x-large;"><a href="#adopt2">Adopt Cats</a></dd>
+	<dd data-magellan-arrival="adopt" style="font-family:lobster;font-size: x-large;"><a href="#adopt">Take an adoption </a></dd>
+	<dd data-magellan-arrival="faq" style="font-family:lobster;font-size: x-large;"><a href="#faq">FAQ's </a></dd>
+	<dd data-magellan-arrival="contact" style="font-family:lobster;font-size: x-large;"><a href="#contact">Contact</a></dd>
+  </dl>
+
+</div>
+				
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-6 columns about-box " style="padding-top:3%";>
+            <div class="black-box" id="id1">
+			
+         
+      <h2 data-magellan-destination="home"> <a name="home"></a> We’re in Adelaide, Australia.</h2>
+			
+              <p>We’re an adoption center that focuses on providing homes for rehabilitated dogs and cats. We believe all of these deserve a second chance at life.
+              <p>Interested in adopting? Lets take a tour. . .</p> 
+              <a href="#" class="secondary small button">Learn More →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+	 
+      <section class="hero-content" style="
+    background-color: #996633; font-family:lobster;
+"> 
+	 
+       
+      <div class="row" data-equalizer="foo">
+	  <h4 data-magellan-destination="adopt1" id="id2"> <a name="adopt1"></a> All about Dogs.</h4>
+	 
+	     
+	    
+        <div class="large-8 columns about-content" data-equalizer-watch="foo" style="padding-top:2%;">
+		
+		<p>Animals in India need your help. We receive 99% of its funding from people like you. Your donation, 
+		  however small is vital to the continuation of our work and makes a difference to the lives of countless animals. 
+		  Please give generously. With your help, we can continue to make a better world for animals and people. </p>
+		  
+		  <p>A Dog is a man's bestfriend. Save a dog by giving him/her your love , affection and care and see  
+		  in return it blesses you with a lot more you give.
+		  <br> Select your favorite pet dog from our cart and get ready to fall LOVE at FIRST SIGHT!! </p>
+          </div>
+        <div class="large-4 columns" data-equalizer-watch="foo">
+          <ul class="small-block-grid-2">
+            <li><a href="#"><img src="img/dog1.jpg"/></a></li>
+            <li><a href="#"><img src="img/dog2.jpg"/></a></li>
+            <li><a href="#"><img src="img/dog3.jpg"/></a></li>
+            <li><a href="#"><img src="img/dog4.jpg"/></a></li>
+          </ul>
+        </div>
+      </div>
+      </section>
+	  
+	  
+	  <section class="hero-content" style="
+    background-color: #cc6633;font-family:lobster;
+">  
+	 
+       
+      <div class="row" data-equalizer="goo" >
+	  <h4 data-magellan-destination="adopt2"> <a name="adopt2"></a> All About Cats</h4>
+	 
+        <div class="large-4 columns" data-equalizer="goo">
+         <ul data-orbit data-options="pause_on_hover:false; timer_speed:2500">
+	      <li><img src="img/cat3.jpg" style="height: 216px; width: 99%;"/></li>
+	      <li><img src="img/cat1.jpg" style="height: 216px; width: 99%;"/></li>
+		  <li><img src="img/cat2.JPEG" style="height: 216px; width: 99%;"/></li>
+		  <li><img src="img/cat4.jpg" style="height: 216px; width: 99%;"/></li>
+	    </ul>
+        </div>
+		
+	     
+	    
+        <div class="large-8 columns about-content" data-equalizer="goo" style="padding-top:2%;">
+		
+      <p>Animals in India need your help. We receive 99% of its funding from people like you. Your donation, 
+		  however small is vital to the continuation of our work and makes a difference to the lives of countless animals. 
+		  Please give generously. With your help, we can continue to make a better world for animals and people. </p>
+		  
+		  <p>Having a kitten, you never know how time flies. Save a cat by giving him/her your love , affection and care and see  
+		  in return it blesses you with a lot more you give.
+		  <br> Select your favorite kitten from our cart and get ready to fall LOVE at FIRST SIGHT!! </p>
+		</div>
+		
+      </div>
+      </section>
+	  
+	  
+	  <section class="hero-content" style="
+    background-color: black;
+">
+	 <div class="row">
+	    <h4 data-magellan-destination="adopt" style="color:white;"> <a name="adopt"></a> Take an ADOPTION. . . Give ur LOVE...Give them a chance! </h4>
+	   
+  <div class="large-4 medium-4 columns" style="
+    padding-top: 2%;
+">
+     <ul class="pricing-table active-tb shadow mrgn-20-top" > 
+       <li class="title"> <b> Oreo </b> <img src="img/dog1.jpg" style="height: 216px; width: 99%;"/> </li>
+       <li class="bullet-item">Gender: Male</li>
+       <li class="bullet-item">City: Delhi </li>
+       <li class="bullet-item">Features: Brown Eyes, big ears, fluffy</li>
+       <li class="bullet-item">Favorite Food: Pedigree with milk</li>
+       <li class="price"> ADOPTED </li>
+     </ul>
+   </div>
+  <div class="large-4 medium-4 columns"style="
+    padding-top: 2%;
+">
+     <ul class="pricing-table active-tb shadow mrgn-20-top"> 
+       <li class="title"> <b> Scribble</b> <img src="img/dog2.jpg" style="height: 216px; width: 99%;"/> </li>
+       <li class="bullet-item">Gender: Male</li>
+       <li class="bullet-item">City: Canada </li>
+       <li class="bullet-item">Features: Cute Black and Brown</li>
+       <li class="bullet-item">Favorite Food: Hide and Seek Biscuits</li>
+       <li class="price"> <a href="#">Rescue</a></li>
+     </ul>
+   </div>
+  <div class="large-4 medium-4 columns" style="
+    padding-top: 2%;
+">
+     <ul class="pricing-table active-tb shadow mrgn-20-top"> 
+       <li class="title"> <b> Subramani</b> <img src="img/dog.jpg" style="height: 216px; width: 99%;"/> </li>
+       <li class="bullet-item">Gender: Male</li>
+       <li class="bullet-item">City: Chennai </li>
+       <li class="bullet-item">Features: Innocent pug, Cute eyes</li>
+       <li class="bullet-item">Favorite Food: Loves Curd rice </li>
+       <li class="price"> Adopted </li>
+     </ul>
+   </div>
+</div>
+
+<div class="row"> 
+  <div class="large-4 medium-4 columns" style="
+    padding-top: 2%;
+">
+     <ul class="pricing-table active-tb shadow mrgn-20-top"> 
+       <li class="title"> <b> Caramel and Daniss </b> <img src="img/cat3.jpg" style="height: 216px; width: 99%;"//> </li>
+       <li class="bullet-item">Gender: Male</li>
+       <li class="bullet-item">City: Delhi </li>
+       <li class="bullet-item">Features: Best Friends forever</li>
+       <li class="bullet-item">Favorite Food: Bread Milk</li>
+       <li class="price"> <a href="#">Rescue</a></li>
+     </ul>
+   </div>
+  <div class="large-4 medium-4 columns" style="
+    padding-top: 2%;
+">
+     <ul class="pricing-table active-tb shadow mrgn-20-top"> 
+       <li class="title"> <b> Oliver </b> <img src="img/cat1.jpg" style="height: 216px; width: 99%;"//> </li>
+       <li class="bullet-item">Gender: Female</li>
+       <li class="bullet-item">City: Bangalore </li>
+       <li class="bullet-item">Features: Brown Eyes Fluffy</li>
+       <li class="bullet-item">Favorite Food: Fish fry</li>
+       <li class="price"> <a href="#">Rescue</a> </li>
+     </ul>
+   </div>
+  <div class="large-4 medium-4 columns" style="
+    padding-top: 2%;
+">
+    <ul class="pricing-table active-tb shadow mrgn-20-top"> 
+       <li class="title"> <b> Snowie </b> <img src="img/cat4.jpg" style="height: 216px; width: 99%;"//> </li>
+       <li class="bullet-item">Gender: Female</li>
+       <li class="bullet-item">City: Delhi </li>
+       <li class="bullet-item">Features: Fluffy Arrogant</li>
+       <li class="bullet-item">Favorite Food: Milk with Sugar</li>
+       <li class="price"> <a href="#">Rescue</a> </li>
+     </ul>
+   </div>
+</div>
+	  
+	</section>  
+	  
+	  
+	  <section class="hero-content" style="
+    background-color: navy;
+"> 
+	 
+       
+      <div class="row">
+	  <h4 data-magellan-destination="faq" style="color:white;"> <a name="faq"></a>Some frequently asked questions.</h4>
+	 
+	     
+	    
+        <div class="large-12 columns">
+		
+		<ul class="accordion" data-accordion style="text-transform:none;">
+  <li class="accordion-navigation">
+    <a href="#panel1a"><b>What are the steps to adopt a pet?</b></a>
+    <div id="panel1a" class="content">
+      The first step is to come and register for the pet you are wishing to adopt in our nearest centres. We will provide you
+with a Welcome kit and the details of the pet(the vaccinations done so far, allergies if any e.t.c). And there you go, he/she is all yours. 	  
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel2a"><b>Will any BGC or similar would be done post adoption</b></a>
+    <div id="panel2a" class="content">
+      Yes!! Definately there would be a surprise post-adoption check to ensure our pet is happy with their new parents. 
+	 </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel3a"><b>I will be adopting ,actually would be having a pet for the first time! Would it be feasible.</b></a>
+    <div id="panel3a" class="content">
+    Do not Worry at all! Our welcome kit will help you out in all possible way. all you need to do is shower all your love and affection and it will give you all more than that. <b> Happy Adoption </b>
+	</div>
+  </li>
+  
+  <li class="accordion-navigation">
+    <a href="#panel4a"><b>Does your NGO accept donations?.</b></a>
+    <div id="panel4a" class="content">
+	Yes we do! our organization runs 99% on donations. This encourages us to take the stray pets and give them a better living 
+	and we provide a medium for others to adopt and love them more.
+	</div>
+  </li>
+  
+  <li class="accordion-navigation">
+    <a href="#panel5a"><b>Where are you located?</b></a>
+    <div id="panel5a" class="content">
+	Currently we are located at 3 places: New Delhi, Chennai, Bangalore. We are however looking forward to expand our territory.
+    </div>
+  </li>
+  
+</ul>
+		
+          </div>
+       
+      </div>
+      </section>
+	  
+	  
+	  
+	   <!-- Here i have the contact us place where you could reach out and help us save a living -->
+	     <section class="hero-content"> 
+   <div class="row">
+   
+   <h4 data-magellan-destination="contact"> <a name="contact"></a>REACH OUT. . . . </h4>
+   <h4 style="font-family:lobster;"> You could help a living get a beautiful family, impeccable love and lots of affection. To help or donate or both reach out below. . ..  </h4>
+        <div class="box">
+          <div class="box-icon">
+            <span class="fi-telephone"></span>
+          </div>
+          <div class="info">
+            <div class="row">
+              <div class="large-9 columns">
+                <h4>Get in touch!</h4>
+                <p>We're open 9am - 5pm, Monday through Saturdays.</p>
+				<p>Reach out: +61 469 346 966</p>
+				
+		<br><h4 style="font-family:lobster;"> "The smallest act of kindness is worth more than the grandest intention"  </h4>
+		 
+
+
+      
+              </div>
+              <div class="large-3 columns">
+                <a href="#" class="radius button right">Contact Us</a>
+				
+              </div>
+            </div>
+          </div>
+        </div>
+		
+	
+	</div>
+      <footer>
+        <div class="row">
+          <div class="large-6 columns">
+            <p>© Copyright Shalini Mohan.</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    
+	
+	
+	
+	
+	
+   
+  </body>
+   <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+	  $(document).foundation('joyride', 'start');
+    </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
